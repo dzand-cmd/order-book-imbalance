@@ -15,19 +15,19 @@ The goal is to study whether order book pressure can be used as a predictive sig
 
 ## Project Structure
 
-order-book-imbalance/
+order-book-imbalance/  
+│  
+├── src/  
+│   ├── order_book_imbalance.py   # Core imbalance computation and analysis  
 │
-├── src/
-│   ├── order_book_imbalance.py   # Core imbalance computation and analysis
-│
-├── .gitignore                     # Ignored files and cache settings
+├── .gitignore                     # Ignored files and cache settings  
 ├── README.md                      # Project documentation
 
 
 ## How to run
 
-git clone https://github.com/dzand-cmd/order-book-imbalance.git
-cd order-book-imbalance
-pip install numpy pandas matplotlib
+git clone https://github.com/dzand-cmd/order-book-imbalance.git  
+cd order-book-imbalance  
+pip install numpy pandas matplotlib  
 python src/order_book_imbalance.py
 
