@@ -19,7 +19,6 @@ order-book-imbalance/
 │  
 ├── src/  
 │   ├── order_book_imbalance.py   # Core imbalance computation and analysis  
-│
 ├── .gitignore                     # Ignored files and cache settings  
 ├── README.md                      # Project documentation
 
