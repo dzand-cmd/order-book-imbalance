@@ -1,7 +1,7 @@
 # Order Book Imbalance
 
 **Author:** Dzandu Selorm (dzand-cmd)  
-**Project Type:** Quantitative Research  
+**Project Type:** Quantitative Trading  
 **Language:** Python  
 **Status:** Complete 
 
