@@ -17,9 +17,9 @@ The goal is to study whether order book pressure can be used as a predictive sig
 
 order-book-imbalance/  
 │  
-├── order_book_imbalance.py   # Core imbalance computation and analysis  
-├── .gitignore                     # Ignored files and cache settings  
-├── README.md                      # Project documentation
+├── order_book_imbalance.py         # Core imbalance computation and analysis  
+├── .gitignore                      # Ignored files and cache settings  
+├── README.md                        # Project documentation
 
 
 ## Methodology
