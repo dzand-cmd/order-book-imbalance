@@ -1,9 +1,9 @@
-# Order Book Imbalance Alpha Signals
+# Order Book Imbalance
 
-**Author:** dzand-cmd  
-**Project Type:** Quantitative Research / Algorithmic Trading  
+**Author:** Dzandu Selorm (dzand-cmd)  
+**Project Type:** Quantitative Research
 **Language:** Python  
-**Status:** In Progress  
+**Status:** Complete 
 
 ---
 
@@ -17,16 +17,17 @@ The goal is to study whether order book pressure can be used as a predictive sig
 
 order-book-imbalance/
 │
-├── order_book_imbalance.py     # Main implementation of imbalance calculation
-├── data/                       # Market data (L2 order book snapshots or trades)
-├── results/                    # Output metrics, plots, and analysis
-├── notebooks/                  # (Optional) Exploratory analysis
-└── README.md                   # Project documentation
+├── src/
+│   ├── order_book_imbalance.py   # Core imbalance computation and analysis
+│
+├── .gitignore                     # Ignored files and cache settings
+├── README.md                      # Project documentation
 
 
 ## How to run
 
-git clone https://github.com/your/repo
+git clone https://github.com/dzand-cmd/order-book-imbalance.git
 cd order-book-imbalance
-pip install -r requirements.txt
+pip install numpy pandas matplotlib
 python src/order_book_imbalance.py
+
